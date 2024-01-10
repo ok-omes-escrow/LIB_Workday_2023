@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9N9FGd3MrkmFXLG-qPjcsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://impl.workday.com/okgov2/d/task/2998$44084.htmld" DesignTimeRectangle="1765, 438, 32, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl aria-label='Edit Start Details' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Edit Start Details' tag='BUTTON' aaname='Edit' /&gt;" Guid="475b728b-916e-454d-8ae4-8361c69bb4db" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG0SURBVFhH7ZjNSwJBGIf7v4OywMokrMyDFR2yixQUEhQJfZCBlVma31lZ+VWn7OOSh7fe0d+y6Cw5usoefOCBhZ1hHmZ2D7sjZDGsHVSv1+nz65tqtQ9677O8Bq/Fa+rRgn7+bsgmDkJeG2hBXCsbPAh5baAFyQYOUjAMMhIMg4wEfQlKZHJ0FUtK7xkJTA9KZu5ofGaRRu0uOo/GpWNkAlODeGcQY5t1K0UB04J4Z8aaMbfpLOUfCmRzNKL4nmyOXmBKkDgmRyOG3Qzs08FRSFzb5730VCxL5+kFPQelcvdiJ3h3YokMuVd8Wti0y0uFl5J0Xqugp6B0Ni9i+LnBsRyehkXMlEIMC7oOyuYftZ1JNWPCkRsR41hYpucOjkkv6CqIYyacS4YxxXKlbc5/AuUgWczZRbSnGBYoBfGrPOn0iDcKz0woHBExTvcqlcrVtjmdCpSCNrYCYvHWmDnPGpUqr23jVQRKQT7/jnij+BrHZEYMC5SC1v3bIgJyTKX6Jh2rKlAKuryO027wWLgXPDEthgVKQf0UDIOMBMMgI4F1gyz3KW25nw2MpX7HWAWLBRH9AvqFNt+vOZAfAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Revise Job Change - Workday' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aec553b057dc34f2954882ea15c99b93.png" xmlns="">0J8dmvN0JPke_XSIx6rtoiw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

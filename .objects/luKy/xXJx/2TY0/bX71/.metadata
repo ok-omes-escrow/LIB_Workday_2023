@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Manager Name",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Id": "bX71SLX81UWQ23-ApXPang",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/bX71SLX81UWQ23-ApXPang",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/2TY0eAsJDUKa5YLU4NV7Kw",
+  "Created": "2024-01-10T05:52:14.2253671Z",
+  "Updated": "2024-01-10T05:53:38.2479886Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Employee Checkbox",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "ZSA1W-E530-VxF-jV71OzA",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/ZSA1W-E530-VxF-jV71OzA",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/2TY0eAsJDUKa5YLU4NV7Kw",
+  "Created": "2024-01-04T06:48:28.2974122Z",
+  "Updated": "2024-01-04T06:48:28.2974122Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.4.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

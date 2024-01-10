@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Inbox Search Icon",
+  "Type": "Element",
+  "TaxonomyType": "Search",
+  "Id": "h208hyNWxEWMDeShRTK1aQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/h208hyNWxEWMDeShRTK1aQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-04T06:48:28.723351Z",
+  "Updated": "2024-01-04T06:48:28.723351Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

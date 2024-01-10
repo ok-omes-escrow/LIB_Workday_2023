@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Search Field",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XVtis9zHf0yixlT5yl_SbQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/XVtis9zHf0yixlT5yl_SbQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/2TY0eAsJDUKa5YLU4NV7Kw",
+  "Created": "2024-01-04T06:48:29.0347577Z",
+  "Updated": "2024-01-04T06:48:29.0347577Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.4.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

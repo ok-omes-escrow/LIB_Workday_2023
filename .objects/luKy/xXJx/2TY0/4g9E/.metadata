@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Employee ID",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "4g9EVgVhU0i3G5eD3pUq4Q",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/4g9EVgVhU0i3G5eD3pUq4Q",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/2TY0eAsJDUKa5YLU4NV7Kw",
+  "Created": "2024-01-05T11:13:17.3631896Z",
+  "Updated": "2024-01-05T11:14:41.6107715Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

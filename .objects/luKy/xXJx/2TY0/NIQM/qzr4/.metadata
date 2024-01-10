@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Reason",
+  "Type": "Element",
+  "TaxonomyType": "Listbox",
+  "Id": "qzr4UZqcaU2oqbCVWm-O9Q",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/qzr4UZqcaU2oqbCVWm-O9Q",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-04T06:48:28.8044786Z",
+  "Updated": "2024-01-04T06:48:28.8044786Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
