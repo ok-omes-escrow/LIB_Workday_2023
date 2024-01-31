@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Inbox Search",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KyvONDuEr0Gzq3ZsSW7MPQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/KyvONDuEr0Gzq3ZsSW7MPQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:12.1166704Z",
+  "Updated": "2024-01-19T12:34:12.1166704Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

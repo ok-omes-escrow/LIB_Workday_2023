@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Company Service Date",
+  "Type": "Element",
+  "TaxonomyType": "Date",
+  "Id": "AB1k5t2OBUSw1BuCK9Xm8w",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/AB1k5t2OBUSw1BuCK9Xm8w",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:12.0322693Z",
+  "Updated": "2024-01-19T12:34:12.0322693Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

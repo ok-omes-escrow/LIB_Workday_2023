@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Account Icon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "Aapm_RzAX0WsWkYyDsN0zA",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/Aapm_RzAX0WsWkYyDsN0zA",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:32:40.3280342Z",
+  "Updated": "2024-01-19T12:32:40.3280342Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

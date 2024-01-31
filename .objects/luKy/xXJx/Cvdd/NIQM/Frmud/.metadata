@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Currency",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "FrmudyABz02MfXDHJZJTxw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/FrmudyABz02MfXDHJZJTxw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:12.0589648Z",
+  "Updated": "2024-01-19T12:34:12.0589648Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

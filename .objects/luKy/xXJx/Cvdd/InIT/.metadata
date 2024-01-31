@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Move Forward",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "InITKP8vD02CVrSWacJOLQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/InITKP8vD02CVrSWacJOLQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:34:12.3411078Z",
+  "Updated": "2024-01-19T12:34:12.3411078Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

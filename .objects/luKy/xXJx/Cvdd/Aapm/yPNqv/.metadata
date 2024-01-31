@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Sign Out",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "yPNqvywHzk-AUM_p9xlrhg",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/yPNqvywHzk-AUM_p9xlrhg",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Aapm_RzAX0WsWkYyDsN0zA",
+  "Created": "2024-01-19T12:32:40.3367896Z",
+  "Updated": "2024-01-19T12:32:40.3367896Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

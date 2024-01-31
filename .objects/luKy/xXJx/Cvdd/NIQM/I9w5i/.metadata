@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Edit Assignment Details",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "I9w5i44SRU6RLF63W5KUbA",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/I9w5i44SRU6RLF63W5KUbA",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:12.071695Z",
+  "Updated": "2024-01-19T12:34:12.071695Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

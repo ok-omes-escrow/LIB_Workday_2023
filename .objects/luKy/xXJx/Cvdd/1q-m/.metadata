@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Next Stage List",
+  "Type": "Element",
+  "TaxonomyType": "Listbox",
+  "Id": "1q-mNJa-XkSmwqeiWW05_w",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/1q-mNJa-XkSmwqeiWW05_w",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T14:18:09.610137Z",
+  "Updated": "2024-01-19T14:18:09.610137Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.4.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

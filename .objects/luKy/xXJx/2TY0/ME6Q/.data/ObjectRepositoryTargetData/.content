@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="IXP0ZzOgbEi4C1ZWoV_BWg" Reference="uK6Q7vtFLkuCzEyUGdRLAw/ME6QT7Z6ekK_7aBIEpb2WA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://impl.workday.com/okgov2/d/inst/1$5303/5303$16952.htmld#TABINDEX=1&amp;SUBTABINDEX=0" DesignTimeRectangle="458, 797, 278, 40" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'isis selected'" FullSelectorArgument="&lt;webctrl aria-labelledby='NO_METADATA_ID-uid422-input--uid425-input-formLabel gwt-uid-879' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='NO_METADATA_ID-uid422-input--uid425-input-formLabel gwt-uid-879' aria-role='button' tag='DIV' /&gt;" Guid="8ecdba59-8492-4d06-8944-a59c5019d786" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='JR18342 Director - Workday' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="698b32cf5d73ee5759b2f41980491db1.png" xmlns="">0Aq22OvaW_EWEyjhuUWvShg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

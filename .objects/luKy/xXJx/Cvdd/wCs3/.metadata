@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Signed Out",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "wCs3NGy5G0mhvpgV0aeUzA",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/wCs3NGy5G0mhvpgV0aeUzA",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:34:12.8069958Z",
+  "Updated": "2024-01-19T12:34:12.8069958Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

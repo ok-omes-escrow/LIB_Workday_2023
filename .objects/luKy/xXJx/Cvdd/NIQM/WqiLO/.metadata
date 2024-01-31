@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Change Effective From",
+  "Type": "Element",
+  "TaxonomyType": "Date",
+  "Id": "WqiLOw3kWUGSkq38m1f3Lg",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/WqiLOw3kWUGSkq38m1f3Lg",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:11.9829666Z",
+  "Updated": "2024-01-19T12:34:11.9829666Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

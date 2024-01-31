@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Restore PopUp",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gHxGnnGXy0CcW3jPhj0gEQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/gHxGnnGXy0CcW3jPhj0gEQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:34:12.4467248Z",
+  "Updated": "2024-01-19T12:34:12.4467248Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

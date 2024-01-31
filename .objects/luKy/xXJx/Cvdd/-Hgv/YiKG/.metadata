@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Home Address",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "YiKGq4KxCEmFCf6YC3fSTw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/YiKGq4KxCEmFCf6YC3fSTw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/-HgvuMfBNk6DrZz42Om7xw",
+  "Created": "2024-01-30T07:02:04.5838684Z",
+  "Updated": "2024-01-30T07:06:35.9077483Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

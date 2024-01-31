@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Service Date Tab",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FjsLbB9l8E-MdvBz-yE1fA",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/FjsLbB9l8E-MdvBz-yE1fA",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:34:12.7833128Z",
+  "Updated": "2024-01-19T12:34:12.7833128Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

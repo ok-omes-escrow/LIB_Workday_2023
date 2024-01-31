@@ -1,0 +1,13 @@
+﻿{
+  "Name": "All Active Candidates",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "cPME5LD0uUewuERoGg4sRQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/cPME5LD0uUewuERoGg4sRQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:33:46.2509002Z",
+  "Updated": "2024-01-19T12:33:46.2509002Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Employee Location",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Id": "wCP6ZK4t-kOPBJKpemrNpw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/wCP6ZK4t-kOPBJKpemrNpw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-19T12:34:11.6344456Z",
+  "Updated": "2024-01-19T12:34:11.6344456Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

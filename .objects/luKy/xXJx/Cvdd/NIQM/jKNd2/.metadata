@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Search Result - External",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jKNd2dtQBE2I8fu94BDvcw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/jKNd2dtQBE2I8fu94BDvcw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:12.2026266Z",
+  "Updated": "2024-01-19T12:34:12.2026266Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

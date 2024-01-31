@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="JYsNJjI_bEO_89JD18F3dg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://impl.workday.com/okgov2/d/task/2998$44084.htmld?refresh=true&amp;ref=%2Fokgov2%2Ftask%2F2998%2444084%2Ehtmld" DesignTimeRectangle="1367, 178, 32, 32" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl aria-label='Save Hourly' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' aaname='Save' /&gt;" Guid="89cfe53a-9dca-4719-a37a-982c2fb0a075" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVFhH7ZhdS4NQGID730FFYB+LmC0GsyDqZ0REEUTXxQb2QaYzNVfQWt3kxZuv7DVx5wyPUzkX54GHgeeM9wGPF7oEkiF3UBRFMPn+gfH4Cz5rFmfgLJyZJQ36jRdYf2xCnE2kQVjL2tyEOJtIg1gbm5RQQTwJFcSTUEE8iVqDXM+HJ8tmruUlagsaegG0Ooeg6QZzPS9RS5DjerC9dwCrWx0YmI/MPXmJyoMwZrNtCMWgRKVBZWNQQijIfxsxr6P2NGYljumbD8w98yQKBz1bDqy19uH04npmzXJc2JjG3A3uZ9aLSBQO8oMQdrtHsKy14ezyP8qy3eRJwutlY1BC7JZlos6vbuBl+Apau5ecmUViUEL4UAfxOdJ7x0nU+k43+b3tm8y9IhLCQWgQvoNunCx8m7ISpYLQcPQh/GjPkygdVLWECuJJqCCehAriSaRB0r1KS/exAZHqc4wsSBYE8AfWGl+8P1JryQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Propose Compensation Hire - Workday' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="66ea16751b7cbda11b55e9d34e8d8017.png" xmlns="">0ta0sziEpP0OXu4jumqeiMg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Job Title",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "16dt7R8gZUOHNhMZumWqmA",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/16dt7R8gZUOHNhMZumWqmA",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-01-19T12:34:12.1501069Z",
+  "Updated": "2024-01-19T12:34:12.1501069Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

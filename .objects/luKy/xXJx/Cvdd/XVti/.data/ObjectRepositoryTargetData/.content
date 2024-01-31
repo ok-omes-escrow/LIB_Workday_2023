@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nmjt6_Ly3EWxIwz21oRJzg" Reference="wDbVrwCpcUa5WxKMRE0Bcg/XVtis9zHf0yixlT5yl_SbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://impl.workday.com/okgov2/d/home.htmld" DesignTimeRectangle="731, 116, 434, 44" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" Guid="1fe431e9-1326-4817-bac6-79192607cc94" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbYAAAAwCAYAAAB9l18BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADTSURBVHhe7dVBEcAgEAAxnhhGMA7aGrj62MkjGrL2uQMAFWIDIGU97zcAUCE2AFLEBkCK2ABIERsAKWIDIEVsAKSIDYAUsQGQIjYAUsQGQIrYAEgRGwApYgMgRWwApIgNgBSxAZAiNgBSxAZAitgASBEbACliAyBFbACkiA2AFLEBkCI2AFLEBkCK2ABIERsAKWIDIEVsAKSIDYAUsQGQIjYAUsQGQIrYAEgRGwApYgMgRWwApIgNgBSxAZAiNgBSxAZAitgASFn73AGACrEBEHLnBwm410q/kNvTAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Home - Workday' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dcf774290b12dede852f7c73e1322713.png" xmlns="">0FMNJd4mXEUm2nFma-H57Bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

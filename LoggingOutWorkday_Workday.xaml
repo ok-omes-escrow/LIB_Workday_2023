@@ -1,0 +1,195 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Workday_AccessEmployeeProfile" this:Workday_AccessEmployeeProfile.in_strURL="https://impl.workday.com/wday/authgwy/okgov2/login.htmld?returnTo=%2fokgov2%2fd%2fhome.htmld" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_strURL" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
+  <sap:VirtualizedContainerService.HintSize>1514,827</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Workday_AccessEmployeeProfile_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LogOutWorkday" sap:VirtualizedContainerService.HintSize="546,674" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="LogOut Log Message" sap:VirtualizedContainerService.HintSize="484,141" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Logging out from Workday portal&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Edge Workday Portal" sap:VirtualizedContainerService.HintSize="484,382" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Account Icon'" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Account Icon Target appears" sap:VirtualizedContainerService.HintSize="450,652" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Account Icon'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/task/2998$44084.htmld" ContentHash="Jp8zibD5ek2uNrPL8S8x2Q" DesignTimeRectangle="1807, 116, 44, 44" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Account Icon'" FullSelectorArgument="&lt;webctrl aria-label='Profile Vinusangari Saravanan [C]' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Profile*' tag='BUTTON' /&gt;" Guid="6d2c4239-23ad-4340-a2c7-aa22b359ed04" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHdSURBVGhD7ZVLS0JBFMf7Ti2jJIrUiOpKlCZEFFQQ1KpcGUEPMRKjCNpIYC8le1imKVlJUosg6IH0ASIza5Emujt1TwO3FjeKe2II5gcH9D/nwvmNc8cy+OcIAd4IAd4IAd4IAd4IAd4IAd4IAd4IATWublKw4t/Euk7dspSePxFwTM9CeaX+S03NzLNVWsgFAtshHNjc2Qc74SgE96LQ2tGDWWj/gHXRQS5gNFmhrskMxVKJJQCvhQJU17eAqb2bJXSQCuTyedxph2uOJQpjTjeuFYuKGAWkAumHjOp5d7rncS3zmGUJDeRHSD4qkqWLfftA3vWmtk7QN1tYQge5gMe7hjs9OGzHX+TuPg29A0OYyVcqNeQC8tA6g4QDfy6d0YRr1JAKeFfXlYHfJazd/XidfhZa9m+wbhrIBHyBIA5okNohkTxjqcLRySler3LP1m6EpdohEcg+PUNFbSO+pPJnNeS1moZWqNJL8JLLsVQbJAJLvgDubCR2yBJ1YvEE9sr/2BSQCIxOunCocDQO5xeX31b8OIm941Mz7GltkAjY7OM41G/KNjLBntYGicBj9gnv/wWP90e1uOT79l35DSQCPBECvBECvBECvBECvBECvBECvBECvPnnAgBvWeIhHnzxawwAAAAASUVORK5CYII=" InformativeScreenshot="535906ab1d8706c00bc4318e4259c957.png" Reference="wDbVrwCpcUa5WxKMRE0Bcg/Aapm_RzAX0WsWkYyDsN0zA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Workday*' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign Out'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/task/2998$44084.htmld" ContentHash="1AGMI1lk70On_acK8syw3w" DesignTimeRectangle="1648, 778, 106, 40" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Sign Out'" FullSelectorArgument="&lt;webctrl class='wdappchrome-aaay' parentid='app-chrome-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' aaname='Sign Out' check:innerText='Sign Out' /&gt;" Guid="f5d3f043-1795-4b73-9aea-fa566513f8af" ImageBase64="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" InformativeScreenshot="88624370251d3e616320fe6a830a1385.png" Reference="wDbVrwCpcUa5WxKMRE0Bcg/yPNqvywHzk-AUM_p9xlrhg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Workday*' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <ui:LogMessage DisplayName="Success Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[&quot;Successfully logged out from Workday portal&quot;]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Account Icon Target does not appear" sap:VirtualizedContainerService.HintSize="450,258" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message - END" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Already logged out from Workday&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/task/2998$44084.htmld" ContentHash="Jp8zibD5ek2uNrPL8S8x2Q" DesignTimeRectangle="1807, 116, 44, 44" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Account Icon'" FullSelectorArgument="&lt;webctrl aria-label='Profile Vinusangari Saravanan [C]' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Profile*' tag='BUTTON' /&gt;" Guid="6d2c4239-23ad-4340-a2c7-aa22b359ed04" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHdSURBVGhD7ZVLS0JBFMf7Ti2jJIrUiOpKlCZEFFQQ1KpcGUEPMRKjCNpIYC8le1imKVlJUosg6IH0ASIza5Emujt1TwO3FjeKe2II5gcH9D/nwvmNc8cy+OcIAd4IAd4IAd4IAd4IAd4IAd4IAd4IATWublKw4t/Euk7dspSePxFwTM9CeaX+S03NzLNVWsgFAtshHNjc2Qc74SgE96LQ2tGDWWj/gHXRQS5gNFmhrskMxVKJJQCvhQJU17eAqb2bJXSQCuTyedxph2uOJQpjTjeuFYuKGAWkAumHjOp5d7rncS3zmGUJDeRHSD4qkqWLfftA3vWmtk7QN1tYQge5gMe7hjs9OGzHX+TuPg29A0OYyVcqNeQC8tA6g4QDfy6d0YRr1JAKeFfXlYHfJazd/XidfhZa9m+wbhrIBHyBIA5okNohkTxjqcLRySler3LP1m6EpdohEcg+PUNFbSO+pPJnNeS1moZWqNJL8JLLsVQbJAJLvgDubCR2yBJ1YvEE9sr/2BSQCIxOunCocDQO5xeX31b8OIm941Mz7GltkAjY7OM41G/KNjLBntYGicBj9gnv/wWP90e1uOT79l35DSQCPBECvBECvBECvBECvBECvBECvBECvPnnAgBvWeIhHnzxawwAAAAASUVORK5CYII=" InformativeScreenshot="535906ab1d8706c00bc4318e4259c957.png" Reference="wDbVrwCpcUa5WxKMRE0Bcg/Aapm_RzAX0WsWkYyDsN0zA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Workday*' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="qi3emAJCP0axvMewXzmvbQ" IconBase64="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" InformativeScreenshot="03fea73885afbfae51986b55df2d37d2.jpg" Reference="wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A" Selector="&lt;html app='msedge.exe' title='*Workday*' /&gt;" Title="Workday Community Sign-In Page" Url="[in_strURL]" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

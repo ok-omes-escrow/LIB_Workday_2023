@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Phone Number - Internal",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "EuaJLEJf30-YkTJ27IyRhQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/EuaJLEJf30-YkTJ27IyRhQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/eUAZOnd0iUW4UpfmtAZUcw",
+  "Created": "2024-01-30T15:14:02.9248091Z",
+  "Updated": "2024-01-30T15:17:54.3785288Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Phone Number - External",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Kga35rOW7kqCLNtzDyrFXQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/Kga35rOW7kqCLNtzDyrFXQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/eUAZOnd0iUW4UpfmtAZUcw",
+  "Created": "2024-01-30T14:55:54.6760906Z",
+  "Updated": "2024-01-30T15:13:51.3848176Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

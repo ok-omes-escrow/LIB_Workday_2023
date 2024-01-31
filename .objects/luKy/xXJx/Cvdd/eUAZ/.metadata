@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Summary Tab",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "eUAZOnd0iUW4UpfmtAZUcw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/eUAZOnd0iUW4UpfmtAZUcw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-01-30T14:54:03.100827Z",
+  "Updated": "2024-01-30T14:55:12.7911794Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
