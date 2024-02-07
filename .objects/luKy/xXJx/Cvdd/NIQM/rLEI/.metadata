@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Add Hourly",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "rLEIY7RhfkuTA7AFBinQ8Q",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/rLEIY7RhfkuTA7AFBinQ8Q",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-02-01T07:48:18.9866029Z",
+  "Updated": "2024-02-01T13:43:07.5529357Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

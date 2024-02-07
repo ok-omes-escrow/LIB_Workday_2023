@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Compensation Plan - Hourly",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "154_WSd_S0i59lDPGYGo9w",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/154_WSd_S0i59lDPGYGo9w",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-02-01T07:57:19.5678157Z",
+  "Updated": "2024-02-01T08:12:15.873668Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

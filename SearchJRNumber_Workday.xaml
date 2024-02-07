@@ -9,7 +9,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>1514,2560</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1794,3126</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SearchJRNumber_Workday_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -101,21 +101,26 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SearchJRNumber_Workday" sap:VirtualizedContainerService.HintSize="1112,2495" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SearchJRNumber_Workday" sap:VirtualizedContainerService.HintSize="1158,3061" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="boolLoginSuccess" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Workday Portal" sap:VirtualizedContainerService.HintSize="1050,2384" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Workday Portal" sap:VirtualizedContainerService.HintSize="1096,2950" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,2167" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1062,2733" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="strSearchValue" />
             </Sequence.Variables>
@@ -125,47 +130,64 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'Home'" sap:VirtualizedContainerService.HintSize="954,107" sap2010:WorkflowViewState.IdRef="Activate_2">
-              <ui:Activate.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dfb343aa-6d0b-4f4b-88be-20ee30e9f833" InformativeScreenshot="dd570a3b10e30e98d50fec626f0d6eaa" Selector="&lt;webctrl tag='IMG' /&gt;">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:Activate.Target>
-            </ui:Activate>
-            <uix:NCheckState DisplayName="Check App State 'Home Image'" sap:VirtualizedContainerService.HintSize="954,489" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+            <uix:NCheckState DisplayName="Check App State 'Home Image'" sap:VirtualizedContainerService.HintSize="1000,557" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Home Image Exists" sap:VirtualizedContainerService.HintSize="450,272" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Home Image Exists" sap:VirtualizedContainerService.HintSize="496,340" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home Image'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/home.htmld" ContentHash="RsbZOQiICkWFN8hyiRUS-Q" DesignTimeRectangle="144, 118, 97, 39" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'Home Image'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="c84ce55f-14f9-478a-845f-acd57efa68fe" ImageBase64="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" InformativeScreenshot="dbd4ed1b817651db4723fcaeb978669e.png" Reference="wDbVrwCpcUa5WxKMRE0Bcg/cdXfJ2718Uu43nTB56OksA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Home - Workday' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target DesignTimeRectangle="54, 129, 55, 19" ElementType="Text" FriendlyName="'Home Image'" FullSelectorArgument="&lt;webctrl class='wdappchrome-af' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' aaname='MENU' check:innerText='MENU' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAXCAYAAAC1Szf+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJMSURBVFhH7ZbdSxRRGMb7n7roIgQvQqmoDPvaSC0TPyoq2ohCyKzMMss0bEmWxAyNKLJvo6CLKIoC2bYMIqRIE9dyVtfV3GQf93ndORyHFabtZhjngXMx73N43/M775k5swxLSB6sW+XBulW2YQe+fcfaTUVYnpOPhkut+Ds7m3bm1fOwVzyO930hTE//QXXtWRXTB+OGMa787ts9SCaT6UxASyAoceYx63Iuc5oy57CuXWUFW7ijDIM/h9MOEJ+awuHqk+KZi9Rha840IhC8rsb9x08xMRFTPvMyvynHwOZt2IacvAL0Pn+RdoAvXweQX+CTeCZYPltl7Xzd+WbMzCTEcwxs2T4/tpfuQW39BbW4rlt3xatvbFGL/BfYdVuKsSJ3DV6+fiueY2BZNNjRhY2+UvwYHMJkPI5Dx04IfHvnzYyw+mAO5tL9O/ceYXNROSoOHMHvMcNZsKFwvxxbFgp/+qyOtb5IHUZ/Z691diMy+muBz/kPnjyT7nLDmq84BPZoTR3GjKgU96c6evHyVfXBWgyWz1ZZ/VhsUvKxRnH5fmfAlqQWYkSj0kl2YuWq9eoq+h9Y6sPHfuSuLpSYGR+JjMK3q0q+E8MjEZnHbwVfG9bvC4UlZkdZw/J95XvLgq/evJM5do5xpqvHhOWGtbXfWACrx7aWVKCptQ279/rl+fjpBrn27Cpr2EQigVPnmrCz8qAca2oxWOtgXP+pMGEpdo9d1OPsJDeIm8s4r79AsCO1jnHx7co2rBvkwbpVHqxb5cG6VUsIFpgDLqF0Q9ANM5kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
-                          </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                      </uix:TargetAnchorable>
-                    </uix:NClick.Target>
-                  </uix:NClick>
+                  <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'Home'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="Activate_2">
+                    <ui:Activate.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dfb343aa-6d0b-4f4b-88be-20ee30e9f833" InformativeScreenshot="dd570a3b10e30e98d50fec626f0d6eaa" Selector="&lt;webctrl tag='IMG' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Activate.Target>
+                  </ui:Activate>
+                  <Assign DisplayName="Assign True to login success" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Boolean">[boolLoginSuccess]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                    </Assign.Value>
+                  </Assign>
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Home image does not appear" sap:VirtualizedContainerService.HintSize="450,205" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Home image does not appear" sap:VirtualizedContainerService.HintSize="450,320" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Throw DisplayName="Throw Home image not found exception" Exception="[new Exception(in_strSEHomeNotFound)]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                  <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" AppliesTo="OnlyCurrentUser" DisplayName="Kill EDGE" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="MSEDGE">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:KillProcess>
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoggingToWorkday_WorkdayLogIn.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="LoggingToWorkday_WorkdayLogIn.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_strURL">
+                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_strURL" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_strSELoginFailure">
+                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_strSEHomeNotFound" />
+                      </InArgument>
+                      <OutArgument x:TypeArguments="x:Boolean" x:Key="out_boolLoginSuccess">
+                        <VisualBasicReference x:TypeArguments="x:Boolean" ExpressionText="boolLoginSuccess" />
+                      </OutArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
@@ -184,8 +206,46 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <ui:LogMessage DisplayName="Search JR Number Log Message" sap:VirtualizedContainerService.HintSize="954,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[&quot;Searching for JR Number :&quot;+in_strJRNumber+&quot; in workday&quot;]" />
-            <uix:NSetText DisplayName="Set Text 'JR Number'" sap:VirtualizedContainerService.HintSize="954,162" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Text="[&quot;JR: &quot;+in_strJRNumber]" Version="V3">
+            <If Condition="[boolLoginSuccess =False]" DisplayName="If Home image not found" sap:VirtualizedContainerService.HintSize="1000,788" sap2010:WorkflowViewState.IdRef="If_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence sap:VirtualizedContainerService.HintSize="376,178" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Throw DisplayName="Throw Home image not found exception" Exception="[new Exception(in_strSEHomeNotFound)]" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap:VirtualizedContainerService.HintSize="376,428" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home Image'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/home.htmld" ContentHash="RsbZOQiICkWFN8hyiRUS-Q" DesignTimeRectangle="144, 118, 97, 39" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'Home Image'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="c84ce55f-14f9-478a-845f-acd57efa68fe" ImageBase64="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" InformativeScreenshot="dbd4ed1b817651db4723fcaeb978669e.png" Reference="wDbVrwCpcUa5WxKMRE0Bcg/cdXfJ2718Uu43nTB56OksA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Home - Workday' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="54, 129, 55, 19" ElementType="Text" FriendlyName="'Home Image'" FullSelectorArgument="&lt;webctrl class='wdappchrome-af' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' aaname='MENU' check:innerText='MENU' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAXCAYAAAC1Szf+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJMSURBVFhH7ZbdSxRRGMb7n7roIgQvQqmoDPvaSC0TPyoq2ohCyKzMMss0bEmWxAyNKLJvo6CLKIoC2bYMIqRIE9dyVtfV3GQf93ndORyHFabtZhjngXMx73N43/M775k5swxLSB6sW+XBulW2YQe+fcfaTUVYnpOPhkut+Ds7m3bm1fOwVzyO930hTE//QXXtWRXTB+OGMa787ts9SCaT6UxASyAoceYx63Iuc5oy57CuXWUFW7ijDIM/h9MOEJ+awuHqk+KZi9Rha840IhC8rsb9x08xMRFTPvMyvynHwOZt2IacvAL0Pn+RdoAvXweQX+CTeCZYPltl7Xzd+WbMzCTEcwxs2T4/tpfuQW39BbW4rlt3xatvbFGL/BfYdVuKsSJ3DV6+fiueY2BZNNjRhY2+UvwYHMJkPI5Dx04IfHvnzYyw+mAO5tL9O/ceYXNROSoOHMHvMcNZsKFwvxxbFgp/+qyOtb5IHUZ/Z691diMy+muBz/kPnjyT7nLDmq84BPZoTR3GjKgU96c6evHyVfXBWgyWz1ZZ/VhsUvKxRnH5fmfAlqQWYkSj0kl2YuWq9eoq+h9Y6sPHfuSuLpSYGR+JjMK3q0q+E8MjEZnHbwVfG9bvC4UlZkdZw/J95XvLgq/evJM5do5xpqvHhOWGtbXfWACrx7aWVKCptQ279/rl+fjpBrn27Cpr2EQigVPnmrCz8qAca2oxWOtgXP+pMGEpdo9d1OPsJDeIm8s4r79AsCO1jnHx7co2rBvkwbpVHqxb5cG6VUsIFpgDLqF0Q9ANM5kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <ui:LogMessage DisplayName="Search JR Number Log Message" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[&quot;Searching for JR Number :&quot;+in_strJRNumber+&quot; in workday&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NSetText DisplayName="Set Text 'JR Number'" sap:VirtualizedContainerService.HintSize="1000,162" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Text="[&quot;JR: &quot;+in_strJRNumber]" Version="V3">
               <uix:NSetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/home.htmld" ContentHash="nmjt6_Ly3EWxIwz21oRJzg" DesignTimeRectangle="731, 116, 434, 44" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Search Field'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" Guid="1fe431e9-1326-4817-bac6-79192607cc94" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbYAAAAwCAYAAAB9l18BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADTSURBVHhe7dVBEcAgEAAxnhhGMA7aGrj62MkjGrL2uQMAFWIDIGU97zcAUCE2AFLEBkCK2ABIERsAKWIDIEVsAKSIDYAUsQGQIjYAUsQGQIrYAEgRGwApYgMgRWwApIgNgBSxAZAiNgBSxAZAitgASBEbACliAyBFbACkiA2AFLEBkCI2AFLEBkCK2ABIERsAKWIDIEVsAKSIDYAUsQGQIjYAUsQGQIrYAEgRGwApYgMgRWwApIgNgBSxAZAiNgBSxAZAitgASFn73AGACrEBEHLnBwm410q/kNvTAAAAAElFTkSuQmCC" InformativeScreenshot="dcf774290b12dede852f7c73e1322713.png" Reference="wDbVrwCpcUa5WxKMRE0Bcg/XVtis9zHf0yixlT5yl_SbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Home - Workday' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
               </uix:NSetText.Target>
@@ -196,12 +256,12 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NSetText>
-            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Search Icon'" sap:VirtualizedContainerService.HintSize="954,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Search Icon'" sap:VirtualizedContainerService.HintSize="1000,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://impl.workday.com/okgov2/d/search.htmld?q=JR19703&amp;state=searchCategory-all%3Adefault" ContentHash="2MwkMqYxK0SZpUEyCNlqCg" DesignTimeRectangle="695, 126, 24, 24" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'Search Icon'" FullSelectorArgument="&lt;webctrl parentid='wd-searchInput' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' parentid='wd-searchInput' tag='svg' type='' class='wd-icon-search wd-icon' aaname='' /&gt;" Guid="f5dfa8a1-9c80-4a79-9731-f15ef2944855" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIZSURBVEhL7ZXtS1phGMb3Pyn4hjRQ8dMRFCUF8WO6Dy7mSrEg0+FaUNBgodD+DG2rqYNVHxbr/Y22pW3aerVt/QN33Dc8B9e5n5Qh0Yc+/PDIdV33dV6e55xHf/5ewV3yUNh17mfhp4VFSCaT4Ha7wWq1Qk/PYwiFQjAz8xYajSM2I+PWwuOTU4hGo6DT6aRYLBbI5fNw0bxkZ9xEWnhyega9fr86OJFIQKFQhINqjcDjeDyu6pHIE2he/mZntSItfBaL0SCHwwHlcoX1IKVyGex2O3mz2SzraYUtXFvfUM98YXFJo9+kUvlIXr1eD7u7e6xHwBZmMi9owMhISqPJGBoepkw6nWF1AVuoKC4KfyiVNJqM93PzlMGVzOkCthBvDYYbR780mozvB1XK4KrldAFbaDAYKFytHWo0GbhyMWM0GlldwBa6XP9/S30+H6sL2MKXY2MUftrfr9FkhMMRyrwaH2d1AVv4eXmZwp1eZXH2ner/srLKegRsIYKbGAd0svFtNht5U6lR1tOKtPD8ogmx2HP1zPE1VijOQu3wB+x//UavtoGBQVVHgsFg25UtLRTkcnkwmUz/DG7FbDbDm+lp8AcC9B9/b/uCtC1EcMlPTExCX1+YPk042Ol0wtTUa9LQ87NeB4/HQ5rX64V6vaGZg3RU2Cm4bxVFoave3NpmPV0tRPAZb23vsBrS9cJ2PBR2nTsuvIJrl+rYHuUyvG8AAAAASUVORK5CYII=" InformativeScreenshot="19c06885bcc8fd5d1709193d275b72f1.png" Reference="uK6Q7vtFLkuCzEyUGdRLAw/w3Qa00wfjUC-0LVkbjHhbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Search Results - Saved Categories - Workday' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <Assign DisplayName="Assign Search Value" sap:VirtualizedContainerService.HintSize="954,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign DisplayName="Assign Search Value" sap:VirtualizedContainerService.HintSize="1000,82" sap2010:WorkflowViewState.IdRef="Assign_1">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[strSearchValue]</OutArgument>
               </Assign.To>
@@ -209,7 +269,7 @@
                 <InArgument x:TypeArguments="x:String">[in_strJRNumber+"*"]</InArgument>
               </Assign.Value>
             </Assign>
-            <uix:NCheckState DisplayName="Check App State Search Result- JR Number" sap:VirtualizedContainerService.HintSize="954,672" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+            <uix:NCheckState DisplayName="Check App State Search Result- JR Number" sap:VirtualizedContainerService.HintSize="1000,672" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="JR Number appears" sap:VirtualizedContainerService.HintSize="450,455" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>

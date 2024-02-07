@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Edit Assignment Details - Annual",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "u4ZfgqRqiUC83qDexsBUVw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/u4ZfgqRqiUC83qDexsBUVw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-02-01T07:45:49.0427229Z",
+  "Updated": "2024-02-01T07:46:49.0229898Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

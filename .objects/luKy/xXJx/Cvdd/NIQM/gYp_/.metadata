@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Hourly Title",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gYp_H1RzsUG466dDAXy1mQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/gYp_H1RzsUG466dDAXy1mQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-02-01T13:58:57.85143Z",
+  "Updated": "2024-02-01T14:41:14.6086092Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

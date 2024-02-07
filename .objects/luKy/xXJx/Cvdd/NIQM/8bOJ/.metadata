@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Annual Title",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "8bOJ-T_jqk6Pj9Zr1Oiabw",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/8bOJ-T_jqk6Pj9Zr1Oiabw",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-02-01T14:00:49.4243656Z",
+  "Updated": "2024-02-01T14:42:03.6841672Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
