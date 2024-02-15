@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Worker SubType",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "E6rPJZkgsky11O6m9HGZSg",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/E6rPJZkgsky11O6m9HGZSg",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-02-14T03:57:01.1882218Z",
+  "Updated": "2024-02-14T03:59:47.0061581Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
