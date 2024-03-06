@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Success Event",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "MRF9kCRGV0aeo1m_EIJb9w",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/MRF9kCRGV0aeo1m_EIJb9w",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/NIQMiYzInEO8b9bkfRXi5w",
+  "Created": "2024-03-01T12:54:56.1728096Z",
+  "Updated": "2024-03-01T12:55:50.5856074Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
