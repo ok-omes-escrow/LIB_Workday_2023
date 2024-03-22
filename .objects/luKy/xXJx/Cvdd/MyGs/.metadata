@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Use Another Account",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "MyGsiw3_nku0RoyCNseCiQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/MyGsiw3_nku0RoyCNseCiQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-03-08T08:06:15.6852884Z",
+  "Updated": "2024-03-08T08:07:52.4023256Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

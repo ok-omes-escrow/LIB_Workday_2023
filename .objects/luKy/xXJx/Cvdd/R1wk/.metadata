@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Username Email",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "R1wkvthnlUm0mCbC4WZnpQ",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/R1wkvthnlUm0mCbC4WZnpQ",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-03-08T08:09:15.6348408Z",
+  "Updated": "2024-03-08T08:11:09.5361668Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

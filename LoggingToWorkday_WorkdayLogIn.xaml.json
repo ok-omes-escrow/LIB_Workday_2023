@@ -15,6 +15,50 @@
       "IsRequired": false,
       "IsPrincipal": true,
       "DataSourceItems": null
+    },
+    {
+      "Name": "in_strSELoginFailure",
+      "DisplayName": "in_strSELoginFailure",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_boolLoginSuccess",
+      "DisplayName": "out_boolLoginSuccess",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strBOTUsername",
+      "DisplayName": "in_strBOTUsername",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_securestrPassword",
+      "DisplayName": "in_securestrPassword",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
     }
   ]
 }

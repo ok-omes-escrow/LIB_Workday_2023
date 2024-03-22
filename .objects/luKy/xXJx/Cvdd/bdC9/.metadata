@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Employee Workday Name",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "bdC9Ibfa-kyxaqkx5rH3Gg",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/bdC9Ibfa-kyxaqkx5rH3Gg",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-03-13T14:37:12.7187391Z",
+  "Updated": "2024-03-13T14:40:01.5231729Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

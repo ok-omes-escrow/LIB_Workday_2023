@@ -1,15 +1,23 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SearchJRNumber_Workday" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SearchJRNumber_Workday" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_strJRNumber" Type="InArgument(x:String)" />
     <x:Property Name="in_strURL" Type="InArgument(x:String)" />
     <x:Property Name="in_strBEJRNumber" Type="InArgument(x:String)" />
     <x:Property Name="in_strSEHomeNotFound" Type="InArgument(x:String)" />
+    <x:Property Name="in_strBOTCredsAssetName" Type="InArgument(x:String)" />
+    <x:Property Name="in_strAssetFolderPath" Type="InArgument(x:String)" />
   </x:Members>
+  <this:SearchJRNumber_Workday.in_strBOTCredsAssetName>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SearchJRNumber_Workday.in_strBOTCredsAssetName>
+  <this:SearchJRNumber_Workday.in_strAssetFolderPath>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SearchJRNumber_Workday.in_strAssetFolderPath>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>1794,3126</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1498,3130</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SearchJRNumber_Workday_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -105,7 +113,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SearchJRNumber_Workday" sap:VirtualizedContainerService.HintSize="1158,3061" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SearchJRNumber_Workday" sap:VirtualizedContainerService.HintSize="1158,3065" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="boolLoginSuccess" />
     </Sequence.Variables>
@@ -114,13 +122,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Workday Portal" sap:VirtualizedContainerService.HintSize="1096,2950" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Workday Portal" sap:VirtualizedContainerService.HintSize="1096,2954" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1062,2733" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1062,2737" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="strSearchValue" />
             </Sequence.Variables>
@@ -130,9 +138,9 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Home Image'" sap:VirtualizedContainerService.HintSize="1000,557" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
+            <uix:NCheckState DisplayName="Check App State 'Home Image'" sap:VirtualizedContainerService.HintSize="1000,561" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="b19c4cf9-5d80-48b2-b7f6-62067aaa767e" Version="V3">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Home Image Exists" sap:VirtualizedContainerService.HintSize="496,340" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Home Image Exists" sap:VirtualizedContainerService.HintSize="496,344" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -186,6 +194,15 @@
                       <OutArgument x:TypeArguments="x:Boolean" x:Key="out_boolLoginSuccess">
                         <VisualBasicReference x:TypeArguments="x:Boolean" ExpressionText="boolLoginSuccess" />
                       </OutArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_strBOTCredsAssetName">
+                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_strBOTCredsAssetName" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_strAssetFolderPath">
+                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_strAssetFolderPath" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:Int32" x:Key="in_intDelayTimeSmall">
+                        <Literal x:TypeArguments="x:Int32" Value="5" />
+                      </InArgument>
                     </ui:InvokeWorkflowFile.Arguments>
                   </ui:InvokeWorkflowFile>
                 </Sequence>

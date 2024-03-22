@@ -6,11 +6,12 @@
   "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/8RwOO2haiEO-N053_Z5fZQ",
   "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
   "Created": "2024-01-31T06:35:25.5221185Z",
-  "Updated": "2024-01-31T06:41:27.7657771Z",
+  "Updated": "2024-03-22T16:34:30.982519Z",
   "CreatedBy": [
     "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
   "UpdatedBy": [
-    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }

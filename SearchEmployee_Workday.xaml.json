@@ -17,8 +17,63 @@
       "DataSourceItems": null
     },
     {
-      "Name": "in_strEmployeeFullName",
-      "DisplayName": "in_strEmployeeFullName",
+      "Name": "in_strEmployeeName",
+      "DisplayName": "in_strEmployeeName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strBEEmployeeNotFound",
+      "DisplayName": "in_strBEEmployeeNotFound",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strSEHomeNotFound",
+      "DisplayName": "in_strSEHomeNotFound",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strProfileView",
+      "DisplayName": "in_strProfileView",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strBOTCredsAssetName",
+      "DisplayName": "in_strBOTCredsAssetName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strBOTAssetFolderPath",
+      "DisplayName": "in_strBOTAssetFolderPath",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,

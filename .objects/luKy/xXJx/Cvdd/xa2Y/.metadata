@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Select BOT Account",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xa2Yt4MeRESzVBjjdjkwVg",
+  "Reference": "wDbVrwCpcUa5WxKMRE0Bcg/xa2Yt4MeRESzVBjjdjkwVg",
+  "ParentRef": "wDbVrwCpcUa5WxKMRE0Bcg/Cvdd-KtQwUWdzXTJ8kMP9A",
+  "Created": "2024-03-08T08:01:57.094575Z",
+  "Updated": "2024-03-08T11:26:56.067675Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
